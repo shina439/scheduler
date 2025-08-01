@@ -15,8 +15,8 @@ body{
   }
 
   .wrapper{
-    width: 520px;
-    height: 400px;
+    width: 320px;
+    height: 300px;
     background-color: transparent;
     border: 2px solid rgb(255,255,255,.2);
     backdrop-filter: blur(10px);
@@ -38,8 +38,8 @@ form{
   }
   .wrapper .input-box{
     position: relative;
-    width: 93%;
-    height: 50px;
+    width: 83%;
+    height: 20px;
     margin: 20px 0;
     
   }
@@ -50,10 +50,11 @@ form{
   border: none;
   outline: none;
   border: 2px solid rgb(255,255,255,.2);
-  border-radius: 40px;
+  border-radius: 12px;
   font-size: 18px;
   color: #fff;
-  padding: 10px 12px 10px;
+  padding: 1px 12px 12px 10px;
+  margin-left: 10px;
 }
 .input-box input::placeholder{
   color:#fff;
@@ -85,18 +86,18 @@ form{
 
 }
 .wrapper .btn{
-  width: 80%;
+  width: 90%;
   height: 35px;
   background: #fff;
   border: none;
   outline: none;
-  border-radius: 40px;
+  border-radius: 20px;
   box-shadow: 0 0 10px;
   cursor: pointer;
   font-size: 16px;
   color: #333;
   font-weight: 800;
-  margin-left: 35px;
+  margin-left: 8px;
 }
  
 .wrapper .register-link{

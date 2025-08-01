@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Scheduler</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Task Scheduler</h1>
+  <p id="welcome"></p>
+
+
+
+  <div class="board">
+    <div class="column" data-status="backlog">
+      <h2>Backlog</h2>
+      <div class="task-list" id="backlog"></div>
+      <button onclick="addTask('backlog')">+ Add item</button>
+
+    </div>
+
+
+    <div class="column" data-status="progress">
+      <h2>Progress</h2>
+      <div class="task-list" id="progress"></div>
+      <button onclick="addTask('progress')">+ Add item</button>
+      
+    </div>
+
+    <div class="column" data-status="complete">
+      <h2>Complete</h2>
+      <div class="task-list" id="complete"></div>
+      <button onclick="addTask('complete')">+ Add item</button>
+      
+    </div>
+
+    <div class="column" data-status="onhold">
+      <h2>On Hold</h2>
+      <div class="task-list" id="onhold"></div>
+      <button onclick="addTask('onhold')">+ Add item</button>
+      
+      
+    </div>
+    <p><a href="index.html">back to login </a></p>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
